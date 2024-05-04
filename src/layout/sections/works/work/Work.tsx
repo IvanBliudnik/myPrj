@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from "../../../../components/Link";
 import {StyleButton} from "../../../../components/Button";
 import {SW} from "./WorksStyles"
 
@@ -17,10 +16,6 @@ export const Work:React.FC<WorkPropsType> = (props: WorkPropsType) => {
                     InVersion
                 </StyleButton>
             </SW.ImageWrapper>
-            <SW.Description>
-                <Link active href={"#"}>demo</Link>
-                <Link href={"#"}>code</Link>
-            </SW.Description>
         </SW.Work>
     );
 };

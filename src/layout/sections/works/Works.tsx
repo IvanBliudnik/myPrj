@@ -44,11 +44,10 @@ export const Works = () => {
     return (
         <SW.Works id={"works"}>
             <Container>
-                <SectionTitle>My Works</SectionTitle>
+                <SectionTitle>Featured work</SectionTitle>
                 <FlexContainer justify={"center"} align={"flex-start"} wrap={"wrap"}>
-
                     <AnimatePresence>
-                        {filteredWorks.map((w, index) => {
+                        {worksData.map((w) => {
                             return (
                                 <motion.div style={{width: "auto", flexGrow:1, maxWidth:"612px"}}
                                     layout
@@ -64,7 +63,6 @@ export const Works = () => {
                             )
                         })}
                     </AnimatePresence>
-
                 </FlexContainer>
             </Container>
         </SW.Works>
