@@ -10,7 +10,7 @@ export const Main: React.FC = () => {
     return (
         <S.Main id={"home"}>
             <Container>
-                <FlexContainer align={"center"} justify={"space-between"} wrap={"wrap"}>
+                <FlexContainer align={"center"} justify={"center"} wrap={"wrap"}>
                     <S.MainContainer>
                         <S.NameTitle>
                             <span>
@@ -24,7 +24,6 @@ products & interactive experiences.
                         </S.MainTitle>
                         <StyleButton type={"submit"} >9kyb@mail.ru</StyleButton>
                     </S.MainContainer>
-
                     <S.PhotoWrapper>
                         <S.Photo src={photo} alt=""/>
                     </S.PhotoWrapper>

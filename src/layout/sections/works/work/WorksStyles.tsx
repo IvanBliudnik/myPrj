@@ -25,18 +25,15 @@ const Work = styled.div`
         }
     }
 
-        @media ${Theme.media.desktop} {
-        max-width: 540px;
-    }
+        // @media ${Theme.media.desktop} {
+    //     max-width: 540px;
+    // }
 `
 
 const ImageWrapper = styled.div`
     position: relative;
     gap: 24px;
-    width: 612px;
-    height: 888px;
     border-radius: 4px;
-  
     
     ${StyleButton} {
     display: flex;
@@ -92,8 +89,6 @@ const ImageWrapper = styled.div`
 
 
 const Image = styled.img`
-    width: auto;
-    height: auto;
     object-fit: cover;
 `
 
@@ -104,6 +99,9 @@ const Text = styled.p`
     margin: 14px 0 10px;
     color: #ffffff;
 `
+const Description = styled.div`
+    padding: 25px 20px;
+`
 
 
 export const SW = {
@@ -112,5 +110,6 @@ export const SW = {
     Image,
     Title,
     Text,
+    Description,
     ImageWrapper,
 }

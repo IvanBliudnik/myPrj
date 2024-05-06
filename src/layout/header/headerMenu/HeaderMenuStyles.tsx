@@ -77,6 +77,7 @@ const NavLink = styled(Link)`
 
 // MobileMenu
 const MobileMenu = styled.nav`
+    
 `
 const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     position: fixed;
@@ -84,16 +85,15 @@ const MobileMenuPopup = styled.div<{ isOpen: boolean }>`
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 999;
     background-color: rgba(31, 31, 32, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateY(-100%);
     transition: 1s ease-in-out;
-
-
+    
     ul {
+        padding-top: 100px;
         display: flex;
         gap: 10px;
         justify-content: center;

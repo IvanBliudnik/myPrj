@@ -11,6 +11,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         min-width: 360px;
         background-color: ${Theme.colors.primaryBg};
         margin: 0;

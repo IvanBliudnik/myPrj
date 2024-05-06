@@ -3,8 +3,6 @@ import styled from "styled-components";
 
 
 const Header = styled.header`
-    position: fixed;
-    z-index: 99999;
     backdrop-filter: blur(20px);
     background: rgba(50, 50, 50, 0.7);
     display: flex;

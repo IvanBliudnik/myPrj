@@ -12,7 +12,6 @@ type MainContainerPropsType = {
 
 const Main = styled.section`
     position: relative;
-    padding-top: 56px;
     min-height: 100%;
     background-color: ${Theme.colors.primaryBg};
     display: flex;
@@ -70,11 +69,17 @@ const MainTitle = styled.h1`
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -0.5px;
-    text-align: left;
+    text-align: center;
     
     p {
         display: none;
     }
+    @media ${Theme.media.mobile} {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 `
 
 const NameTitle = styled.h2`
@@ -92,7 +97,7 @@ const NameTitle = styled.h2`
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.5px;
-    text-align: left;
+    text-align: center;
     @media ${Theme.media.mobile} {
         margin: 15px 0 22px;
     }
