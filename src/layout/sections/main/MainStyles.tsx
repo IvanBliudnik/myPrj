@@ -70,7 +70,7 @@ const MainTitle = styled.h1`
     line-height: 64px;
     letter-spacing: -0.5px;
     text-align: center;
-    
+    margin-top: 24px;
     p {
         display: none;
     }
@@ -98,6 +98,7 @@ const NameTitle = styled.h2`
     line-height: 30px;
     letter-spacing: -0.5px;
     text-align: center;
+    margin-top: 160px;
     @media ${Theme.media.mobile} {
         margin: 15px 0 22px;
     }

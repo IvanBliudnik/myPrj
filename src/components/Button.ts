@@ -12,6 +12,7 @@ export const StyleButton = styled.button`
     position: relative;
     border-radius: 4px;
     color: white;
+    margin: 88px 0 145px;
 
     background: rgba(157, 157, 157, 0.5);
     

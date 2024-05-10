@@ -31,7 +31,7 @@ export const GoTopBtn = () => {
 };
 
 const StyledGoTopBtn = styled.button`
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 8px;
     position: fixed;
     right: 30px;

@@ -1,5 +1,4 @@
 import React from 'react';
-import {SectionTitle} from "../../../components/SectionTitle";
 import {FlexContainer} from "../../../components/FlexContainer";
 import {Work} from "./work/Work";
 import p1 from "./../../../assets/images/p1.png"
@@ -8,6 +7,7 @@ import p3 from "./../../../assets/images/p3.png"
 import p4 from "./../../../assets/images/p4.png"
 import {Container} from "../../../components/Container";
 import {SW} from "./work/WorksStyles"
+import {Icon} from "../../../components/icon/Icon";
 
 
 const worksData = [
@@ -33,11 +33,10 @@ export const Works = () => {
     return (
         <SW.Works id={"works"}>
             <Container>
-                <SectionTitle>My Works</SectionTitle>
+                <Icon iconId={"WorksLabel"} width={"198px"} height={"50px"} viewBox={"0 0 80 80"}/>
                 <FlexContainer justify={"center"} align={"flex-start"} wrap={"wrap"}>
                     {worksData.map((w) => {
                         return (
-
                             <Work
                                 src={w.src}
                                 key={w.id}/>

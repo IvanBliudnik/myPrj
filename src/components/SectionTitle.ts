@@ -18,9 +18,9 @@ export const SectionTitle = styled.h2`
     position: relative;
     
     &::before {
-        content: "";
+        content: "If you are looking to hire a product designer, I’m currently available for freelance work";
         display: inline-block;
-        width: 55px;
+        width: auto;
         height: 1px;
         
         background-color: ${Theme.colors.font};

@@ -31,7 +31,7 @@ export const Contact:React.FC = () => {
     return (
         <SC.Contacts id={"contact"}>
             <Container>
-                <SectionTitle>Contact</SectionTitle>
+                <SectionTitle>Contact Me</SectionTitle>
                 <FlexContainer>
                 <SC.Form ref={form} onSubmit={sendEmail}>
                     <SC.Field required placeholder={"Name"} name = {"user_name"}/>

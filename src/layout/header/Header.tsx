@@ -6,8 +6,6 @@ import {MobileMenu} from "./headerMenu/mobileMenu/MobileMenu";
 import React from "react";
 import {S} from "./Header_Styles"
 
-
-
 export const Header: React.FC = () => {
     const [width, setWidth] = React.useState(window.innerWidth)
     const breakpoint = 768;
