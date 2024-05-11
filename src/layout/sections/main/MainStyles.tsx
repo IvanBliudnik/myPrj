@@ -25,6 +25,7 @@ const MainContainer  = styled.div<MainContainerPropsType>`
     max-width: 50%;
     height: 100%;
     opacity: 1;
+    gap: 25px;
 `
 const PhotoWrapper = styled.div<MainContainerPropsType>`
     width: auto;
@@ -90,15 +91,15 @@ const NameTitle = styled.h2`
         Fmin: 36
     })}
     display: flex;
-    width: auto;
+    align-items: center;
+    justify-content: center;
     color: rgb(149, 149, 149);
-    font-family: Manrope;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.5px;
     text-align: center;
-    margin-top: 160px;
+  
     @media ${Theme.media.mobile} {
         margin: 15px 0 22px;
     }
@@ -112,5 +113,3 @@ export const S = {
         MainTitle,
         NameTitle,
    }
-
-// ${font({weight: 400, Fmax: 27, Fmin: 20})}

@@ -15,4 +15,5 @@ export const FlexContainer= styled.div<FlexContainerPropsType>`
     flex-wrap: ${props => props.wrap || "no wrap"};
     height: 100%;
     width: 100%;
+  
     `

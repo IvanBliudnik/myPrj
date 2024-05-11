@@ -3,6 +3,7 @@ import React from 'react';
 // @ts-ignore
 import IconsSprite from '../../assets/images/icons-sprite.svg'
 
+
 type IconPropsType = {
     iconId: string
     width?: string
@@ -18,4 +19,3 @@ export const Icon: React.FC<IconPropsType> = (props: IconPropsType) => {
         </svg>
     );
 };
-
