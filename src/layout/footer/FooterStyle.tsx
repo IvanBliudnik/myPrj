@@ -45,6 +45,7 @@ const Copyright = styled.small`
     font-weight: 400;
     text-align: center;
     opacity: 0.5;
+    color: ${Theme.colors.font};
 `
 
 export const SF = {

@@ -70,15 +70,13 @@ const MainTitle = styled.h1`
     font-weight: 700;
     line-height: 64px;
     letter-spacing: -0.5px;
-    text-align: center;
+    text-align: left;
     margin-top: 24px;
     p {
         display: none;
     }
     @media ${Theme.media.mobile} {
-    display: flex;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
     }
     
 `
@@ -98,10 +96,11 @@ const NameTitle = styled.h2`
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.5px;
-    text-align: center;
+    text-align: left;
   
     @media ${Theme.media.mobile} {
         margin: 15px 0 22px;
+        text-align: center;
     }
 `
 

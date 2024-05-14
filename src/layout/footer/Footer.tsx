@@ -19,8 +19,8 @@ const socialItemsData = [
 export const Footer:React.FC = () => {
     return (
         <SF.Footer>
-            <FlexContainer direction={"column"} align={"center"}>
-                <SF.Footer>Bliudnik007@gmail.com</SF.Footer>
+            <FlexContainer justify={"space-around"} align={"center"}>
+                <SF.Copyright>Made by Ivan Bliudnik — Copyright 2024</SF.Copyright>
                 <SF.SocialList>
                     {socialItemsData.map((s,index)=>{
                         return <SF.SocialItem>
@@ -31,7 +31,6 @@ export const Footer:React.FC = () => {
                         </SF.SocialItem>
                     })}
                 </SF.SocialList>
-                <SF.Copyright>@ 2024.03.07 Ivan Bliudnik</SF.Copyright>
             </FlexContainer>
         </SF.Footer>
     );

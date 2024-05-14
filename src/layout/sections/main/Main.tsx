@@ -10,7 +10,7 @@ export const Main: React.FC = () => {
     return (
         <S.Main id={"home"}>
             <Container>
-                <FlexContainer align={"center"} justify={"center"} wrap={"wrap"}>
+                <FlexContainer align={"flex-start"} justify={"space-between"} wrap={"wrap"}>
                     <S.MainContainer>
                         <S.MainTitle>
                             Hi, I am Ivan Bliudnik. A Product Designer based in Tasucu.
