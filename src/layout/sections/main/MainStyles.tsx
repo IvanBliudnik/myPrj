@@ -18,9 +18,10 @@ const Main = styled.section`
 `
 const MainContainer  = styled.div<MainContainerPropsType>`
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: stretch;
+  flex-direction: ${props=> props.direction || "row"};
+  justify-content: ${props=> props.justify || "flex-start"};
+  align-items: ${props=> props.align || "strength"};
+  flex-wrap: ${props => props.wrap || "no wrap"};
     flex-grow: 1;
     max-width: 50%;
     height: 100%;
@@ -81,7 +82,7 @@ const MainTitle = styled.h1`
     
 `
 
-const NameTitle = styled.h2`
+const NameTitle = styled.h2<MainContainerPropsType>`
     ${font({
         family: "Manrope, sans-serif",
         weight: 700,
@@ -89,8 +90,10 @@ const NameTitle = styled.h2`
         Fmin: 36
     })}
     display: flex;
-    align-items: center;
-    justify-content: center;
+  flex-direction: ${props=> props.direction || "row"};
+  justify-content: ${props=> props.justify || "flex-start"};
+  align-items: ${props=> props.align || "strength"};
+  flex-wrap: ${props => props.wrap || "no wrap"};
     color: rgb(149, 149, 149);
     font-size: 20px;
     font-weight: 600;

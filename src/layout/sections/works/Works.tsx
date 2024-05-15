@@ -8,6 +8,7 @@ import p4 from "./../../../assets/images/p4.png"
 import {Container} from "../../../components/Container";
 import {SW} from "./work/WorksStyles"
 import {Icon} from "../../../components/icon/Icon";
+import {IconStyleBtn} from "../../../components/Button";
 
 
 const worksData = [
@@ -33,7 +34,9 @@ export const Works = () => {
     return (
         <SW.Works id={"works"}>
             <Container>
+                <IconStyleBtn>
                 <Icon iconId={"WorksLabel"} width={"198px"} height={"50px"} viewBox={"0 0 80 80"}/>
+                </IconStyleBtn>
                 <FlexContainer justify={"center"} align={"flex-start"} wrap={"wrap"}>
                     {worksData.map((w) => {
                         return (
