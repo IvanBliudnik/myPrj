@@ -1,12 +1,6 @@
 import styled from "styled-components";
 import {Theme} from "../styles/Theme";
 
-type IconStyleBtnPropsType = {
-    direction?: string
-    justify?: string
-    align?: string
-    wrap?: string
-}
 
 export const StyleButton = styled.button`
   width: 300px;
@@ -18,11 +12,10 @@ export const StyleButton = styled.button`
   color: ${Theme.colors.font};
 `
 
-export const IconStyleBtn = styled.button<IconStyleBtnPropsType>`
-  padding:88px 0 145px;
+export const IconStyleBtn = styled.button`
   display: flex;
-  flex-direction: ${props=> props.direction || "row"};
-  justify-content: ${props=> props.justify || "flex-start"};
-  align-items: ${props=> props.align || "strength"};
-  flex-wrap: ${props => props.wrap || "no wrap"};
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px 16px 48px;
 `
