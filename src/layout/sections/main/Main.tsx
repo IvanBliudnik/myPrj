@@ -24,7 +24,7 @@ their goals by designing user-centric digital
 products & interactive experiences.
                             </span>
                         </S.NameTitle>
-                    <IconStyleBtn justify={"flex-start"} wrap={"wrap"}>
+                    <IconStyleBtn>
                         <Icon iconId={"SubmitBtn"} width={"300px"} height={"57px"} viewBox="{0 0 80 80}"/>
                     </IconStyleBtn>
                     </S.MainContainer>

@@ -23,7 +23,7 @@ export const Contact:React.FC = () => {
                         </span>
                         </S.NameTitle>
                         </FlexContainer>
-                        <IconStyleBtn align={"center"} justify={"center"} wrap={"wrap"}>
+                        <IconStyleBtn>
                         <Icon iconId={"SubmitBtn"} width={"300px"} height={"57px"} viewBox="{0 0 80 80}"/>
                         </IconStyleBtn>
                         </S.MainContainer>
