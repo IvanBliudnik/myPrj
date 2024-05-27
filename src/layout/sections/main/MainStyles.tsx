@@ -94,7 +94,7 @@ const NameTitle = styled.h2<MainContainerPropsType>`
   justify-content: ${props=> props.justify || "flex-start"};
   align-items: ${props=> props.align || "strength"};
   flex-wrap: ${props => props.wrap || "no wrap"};
-    color: rgb(149, 149, 149);
+    color: rgb(149, 149, 149, 0,5);
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
